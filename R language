@@ -1,0 +1,11 @@
+ # define the car vector with 5 values
+ # cars c(1, 4, 6, 5, 10)
+ # graph the cars vector with all defaults
+ plot(cars)
+
+ # define the car vector with 5 values
+cars <- c(1, 4, 6, 5, 10)
+#graph the cars vector with all defaults
+plot(cars, type="o") # add a line trend
+# create a title
+title(main="Cars vs Index")
